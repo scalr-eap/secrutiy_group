@@ -7,5 +7,5 @@ variable "scalr_aws_secret_key" {}
 variable "scalr_aws_access_key" {}
 
 variable "sg_name" {
-description = "Secruity Group Name"
+description = "Security Group Name"
  }
