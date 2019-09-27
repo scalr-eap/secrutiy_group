@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "allow_https" {
-  name        = "allow_https"
+  name        = var.sg_name
   description = "Allow https traffic"
   vpc_id      = var.vpc_id
 
